@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdullah Shah portfolio website - software engineer, Java developer, and problem solver.">
+  <title>Abdullah Shah | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-logo" href="#top" aria-label="Abdullah Shah home">Abdullah Shah<span>.</span></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-cta" href="#contact">Hire Me &rarr;</a>
+    </nav>
+
+    <main id="top">
+      <header class="hero">
+        <div class="hero-left">
+          <div class="hero-tag"><span class="hero-dot"></span> Open to Work</div>
+          <h1 class="hero-h1">Creative<br>Developer<br>&amp; <em>Problem</em><br>Solver.</h1>
+          <p class="hero-sub">Software engineer building real-world Java, C, and C++ projects - from hospital systems to banking apps.</p>
+        </div>
+
+        <div class="hero-right" aria-label="Portfolio stats">
+          <div class="hero-stat-box">
+            <div class="stat-num">8</div>
+            <div class="stat-lbl">Projects</div>
+          </div>
+          <div class="hero-stat-box">
+            <div class="stat-num">3</div>
+            <div class="stat-lbl">Languages</div>
+          </div>
+          <div class="hero-avail">&#128205; Karachi, Pakistan</div>
+        </div>
+      </header>
+
+      <section class="bento" aria-label="Portfolio content">
+        <article class="card c-white card-about" id="about">
+          <div class="eyebrow">About Me</div>
+          <h2 class="about-title">Hi, I'm Abdullah Shah -<br>a software engineer who loves to build.</h2>
+          <p class="about-body">Started with <strong>C language</strong>, strengthened my <strong>Java</strong> and OOP skills, worked through <strong>Harvard CS50</strong>, and built real systems from the ground up. I write clean, logical code and turn ideas into working software. Currently expanding into web development and backend systems.</p>
+        </article>
+
+        <article class="card c-black card-location">
+          <div class="loc-emoji" aria-hidden="true">&#127757;</div>
+          <div class="loc-label">Based In</div>
+          <h2 class="loc-city">Karachi, Pakistan</h2>
+          <p class="loc-sub">Available remotely and on-site in Karachi</p>
+        </article>
+
+        <section class="card c-cream card-skills" id="skills">
+          <div class="skills-header">
+            <h2 class="skills-title">My Tech Stack</h2>
+            <p class="skills-note">Growing every day &#10022;</p>
+          </div>
+
+          <div class="skills-pills" aria-label="Skills">
+            <div class="pill"><span class="pill-dot dot-purple"></span><span class="pill-name">C Language</span><span class="pill-level">Advanced</span></div>
+            <div class="pill"><span class="pill-dot dot-blue"></span><span class="pill-name">C++</span><span class="pill-level">Intermediate</span></div>
+            <div class="pill"><span class="pill-dot dot-orange"></span><span class="pill-name">Java</span><span class="pill-level">Intermediate</span></div>
+            <div class="pill"><span class="pill-dot dot-green"></span><span class="pill-name">OOP</span><span class="pill-level">Good</span></div>
+            <div class="pill"><span class="pill-dot dot-rose"></span><span class="pill-name">Data Structures</span><span class="pill-level">Learning</span></div>
+            <div class="pill"><span class="pill-dot dot-yellow"></span><span class="pill-name">Git &amp; GitHub</span><span class="pill-level">Regular</span></div>
+            <div class="pill"><span class="pill-dot dot-mint"></span><span class="pill-name">Algorithms</span><span class="pill-level">Practicing</span></div>
+            <div class="pill"><span class="pill-dot dot-slate"></span><span class="pill-name">HTML / CSS</span><span class="pill-level">Beginner</span></div>
+          </div>
+        </section>
+
+        <a class="card c-black card-proj project-dark" id="projects" href="https://github.com/SyedAbd110786/Hospital-Management-System" target="_blank" rel="noreferrer">
+          <div class="proj-num">01 - Project</div>
+          <h2 class="proj-name">Hospital Management System</h2>
+          <p class="proj-desc">Full hospital workflow system - patient records, scheduling, and data handling built in C.</p>
+          <div class="proj-tags"><span class="ptag">C</span><span class="ptag">University</span></div>
+          <div class="proj-arrow" aria-hidden="true">&nearr;</div>
+        </a>
+
+        <a class="card c-orange card-proj project-orange" href="https://github.com/SyedAbd110786/Banking-Management-System-In-java" target="_blank" rel="noreferrer">
+          <div class="proj-num">02 - Project</div>
+          <h2 class="proj-name">Banking Management System</h2>
+          <p class="proj-desc">Accounts, deposits, withdrawals and transactions - built with Java and OOP principles.</p>
+          <div class="proj-tags"><span class="ptag">Java</span><span class="ptag">OOP</span></div>
+          <div class="proj-arrow" aria-hidden="true">&nearr;</div>
+        </a>
+
+        <a class="card c-cream card-proj project-light" href="https://github.com/SyedAbd110786/CS50--Problems" target="_blank" rel="noreferrer">
+          <div class="proj-num">03 - Project</div>
+          <h2 class="proj-name">CS50 Problem Sets</h2>
+          <p class="proj-desc">Harvard CS50 solutions covering algorithms, memory, and data structures in C.</p>
+          <div class="proj-tags"><span class="ptag dk">C</span><span class="ptag dk">Algorithms</span></div>
+          <div class="proj-arrow" aria-hidden="true">&nearr;</div>
+        </a>
+
+        <a class="card c-white card-proj card-project-wide project-light" href="https://github.com/SyedAbd110786/Code_Alpha_projects" target="_blank" rel="noreferrer">
+          <div class="proj-num">04 - Project</div>
+          <h2 class="proj-name">Hotel Reservation System</h2>
+          <p class="proj-desc">Java reservation system for rooms, bookings, guest details, and availability management using OOP concepts.</p>
+          <div class="proj-tags"><span class="ptag dk">Java</span><span class="ptag dk">OOP</span><span class="ptag dk">Booking</span></div>
+          <div class="proj-arrow" aria-hidden="true">&nearr;</div>
+        </a>
+
+        <a class="card c-black card-github" href="https://github.com/SyedAbd110786" target="_blank" rel="noreferrer">
+          <div class="gh-icon" aria-hidden="true">&#8997;</div>
+          <div class="gh-title">GitHub Repos</div>
+          <div class="gh-repos">8</div>
+          <div class="gh-sub">SyedAbd110786</div>
+          <div class="gh-divider">
+            <div class="gh-small">Top language</div>
+            <div class="gh-lang">C Language</div>
+          </div>
+        </a>
+
+        <article class="card c-white card-contact" id="contact">
+          <div class="contact-layout">
+            <div class="contact-intro">
+              <div class="eyebrow">Get In Touch</div>
+              <h2 class="contact-big">Have an opportunity?<br>Let's <em>talk.</em></h2>
+              <p class="contact-copy">Whether it's an internship, software engineering role, project collab, or just saying hi - I'm always happy to connect.</p>
+
+              <div class="contact-btns">
+                <a class="cbtn cbtn-outline" href="mailto:syedabdullahshah086@gmail.com?subject=Portfolio%20Opportunity">Email &nearr;</a>
+                <a class="cbtn cbtn-outline" href="https://www.linkedin.com/in/abdullah-shah-3262b2301" target="_blank" rel="noreferrer">LinkedIn &nearr;</a>
+                <a class="cbtn cbtn-outline" href="https://github.com/SyedAbd110786" target="_blank" rel="noreferrer">GitHub &nearr;</a>
+              </div>
+            </div>
+
+            <form class="contact-form" data-contact-form>
+              <div class="form-row">
+                <label class="form-field">
+                  <span>Name</span>
+                  <input type="text" name="name" autocomplete="name" placeholder="Your name" required>
+                </label>
+
+                <label class="form-field">
+                  <span>Email</span>
+                  <input type="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+                </label>
+              </div>
+
+              <label class="form-field">
+                <span>Message</span>
+                <textarea name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+              </label>
+
+              <input class="hidden-field" type="text" name="website" tabindex="-1" autocomplete="off">
+
+              <div class="form-footer">
+                <button class="cbtn cbtn-dark" type="submit">Send Message &rarr;</button>
+                <p class="form-status" data-form-status role="status"></p>
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p class="foot-copy">&copy; 2026 Abdullah Shah</p>
+      <p class="foot-made">Designed &amp; Built from Scratch &#10022;</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
